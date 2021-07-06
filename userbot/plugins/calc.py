@@ -32,7 +32,7 @@ async def _(car):
         evaluation = stdout
     else:
         evaluation = "Sorry I can't find result for the given equation"
-    final_output = "**EQUATION**: `{}` \n\n **SOLUTION**: \n`{}` \n".format(
+    final_output = "**PERSAMAAN**: `{}` \n\n **LARUTAN**: \n`{}` \n".format(
         cmd, evaluation
     )
     await event.edit(final_output)
