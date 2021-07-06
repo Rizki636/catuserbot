@@ -1,5 +1,5 @@
 # Afk plugin from catuserbot ported from uniborg
-import asyncio
+import asynciob
 from datetime import datetime
 
 from telethon import events
