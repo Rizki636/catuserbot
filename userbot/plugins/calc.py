@@ -8,7 +8,7 @@ import traceback
 @bot.on(sudo_cmd(pattern="calc (.*)", allow_sudo=True))
 async def _(car):
     cmd = car.text.split(" ", maxsplit=1)[1]
-    event = await edit_or_reply(car, "Calculating ...")
+    event = await edit_or_reply(car, "Menghitung ...")
     old_stderr = sys.stderr
     old_stdout = sys.stdout
     redirected_output = sys.stdout = io.StringIO()
